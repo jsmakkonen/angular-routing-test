@@ -1,0 +1,56 @@
+body {
+    background-color: #0B3C5D;
+    font-family: 'Arial', sans-serif;
+}
+
+p {
+    color: white;
+}
+
+.navbar {
+    background: #1D2731;
+}
+
+.navbar ul li a {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: #D9B310 !important;
+}
+
+.jumbotron {
+    background: #0B3C5D;
+}
+
+.jumbotron h1 {
+    color: #328CC1 !important;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+
+.text-block {
+    display: inline-block;
+    font-size: 0.8em;
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    text-align: center;
+    background: #1D2731;
+    z-index: 99;
+}
+
+footer p {
+    padding: 20px 0;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
