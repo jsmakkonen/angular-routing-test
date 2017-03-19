@@ -1,1 +1,1 @@
-"# angular-routing-test" 
+Basic AngularJS routing test application.

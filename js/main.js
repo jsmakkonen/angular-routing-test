@@ -7,12 +7,10 @@ app.config(function ($routeProvider) {
             controller: 'mainController'
         })
         .when('/about', {
-            templateUrl: 'pages/about.html',
-            controller: 'aboutController'
+            templateUrl: 'pages/about.html'
         })
         .when('/contact', {
-            templateUrl: 'pages/contact.html',
-            controller: ' contactController'
+            templateUrl: 'pages/contact.html'
         });
 });
 
@@ -21,10 +19,10 @@ app.controller('mainController', function ($scope) {
     $scope.message = 'This is home page';
 });
 
-app.controller('aboutController', function ($scope) {
-    $scope.message = 'Look! I am an about page.';
+/*app.controller('aboutController', function ($scope) {
+    $scope.message = 'Look! This is an about page.';
 });
 
 app.controller('contactController', function ($scope) {
-    $scope.message = 'Contact us! JK. This is just a demo.';
-});
+    $scope.message = 'This is a demo contact page.';
+});*/
